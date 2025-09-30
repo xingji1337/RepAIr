@@ -1,0 +1,18 @@
+# api & config
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic-settings==2.10.3
+
+# rag core
+numpy==2.2.1
+pypdf==5.1.0
+sentence-transformers==3.0.1
+faiss-cpu==1.10.0
+
+# --- VLM captioner ---
+transformers>=4.43.3
+accelerate>=0.33.0
+safetensors>=0.4.3
+einops>=0.8.0
+
